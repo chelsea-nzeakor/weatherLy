@@ -13,7 +13,7 @@ const addEventOnElements = function (elements, eventType, callback) {
   for (const element of elements) element.addEventListener(eventType, callback);
 }
 
-/**toggle button
+/**toggle button**/
 const html = document.getElementById("html")
     const toggleBtn = document.getElementById("label")
     const toggleThemeButton = document.getElementById('toggle-theme');
@@ -22,7 +22,7 @@ const html = document.getElementById("html")
       toggleBtn.classList.toggle('clicked')
       html.classList.toggle('light-mode');
       console.log("clicked");
-    });**/
+    });
 
 /**
  * Toggle search in mobile devices
