@@ -7,7 +7,7 @@
   /**
    * COLOR
    */
-
+/**
   --primary: #B5A1E5; 
   --on-primary: #100E17; 
   --background: #131214;
@@ -31,7 +31,7 @@
   --white-alpha-4: hsla(0, 0%, 100%, 0.04);
   --white-alpha-8: hsla(0, 0%, 100%, 0.08);
   --black-alpha-10: hsla(0, 0%, 0%, 0.1);
-
+*/
 
 .light-mode {
   /* Light mode */
