@@ -25,13 +25,6 @@ const html = document.getElementById("html")
       console.log("clicked");
     });
 
-    // Add support for touch devices
-toggleThemeButton.addEventListener('touchstart', () => {
-  toggleBtn.classList.toggle('clicked');
-  html.classList.toggle('light-mode');
-  console.log("touched");
-});
-
 /**
  * Toggle search in mobile devices
  */
