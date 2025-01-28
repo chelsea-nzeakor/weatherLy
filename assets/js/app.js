@@ -18,7 +18,6 @@ const html = document.getElementById("html")
     const toggleBtn = document.getElementById("label")
     const toggleThemeButton = document.getElementById('toggle-theme');
   
-
     toggleThemeButton.addEventListener('click', () => {
       toggleBtn.classList.toggle('clicked')
       html.classList.toggle('light-mode');
